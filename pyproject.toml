@@ -16,10 +16,9 @@ dependencies = [
     "pynput",
     "customtkinter"
 ]
-urls = { 
-    "Homepage": "https://github.com/mileaage/EasyLearn-Flashcards",
-    "Issues": "https://github.com/mileaage/EasyLearn-Flashcards/issues"
-}
+[project.urls]
+Homepage = "https://github.com/mileaage/EasyLearn-Flashcards"
+Issues = "https://github.com/mileaage/EasyLearn-Flashcards/issues"
 
 [tool.setuptools]
 license-files = ["LICENSE*"]
