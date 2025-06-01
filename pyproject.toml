@@ -1,27 +1,26 @@
 [build-system]
-requires = ["setuptools >= 77.0.3"]
+requires = ["setuptools>=66.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "easystudy-flashcards"
-description = "Free flashcard application designed to be used with AI to make some neat and useful decks"
-version = "0.0.1"
+name = "FlashCards"
+version = "0.1.0"
+description = "A flashcard application."
+authors = [
+    { name = "Max Miles", email = "maxmiles555@gmail.com" }
+]
+license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.9"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent"
-]
 dependencies = [
     "pynput",
     "customtkinter"
 ]
-authors = [
-    { name = "Max Miles", email = "maxmiles555@gmail.com" }
-]
-license = { text = "MIT" }
+urls = { 
+    "Homepage" = "https://github.com/mileaage/EasyLearn-Flashcards",
+    "Issues" = "https://github.com/mileaage/EasyLearn-Flashcards/issues"
+}
+
+[tool.setuptools]
 license-files = ["LICENSE*"]
 
-[project.urls]
-Homepage = "https://github.com/mileaage/EasyLearn-Flashcards"
-Issues = "https://github.com/mileaage/EasyLearn-Flashcards/issues"

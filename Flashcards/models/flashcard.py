@@ -3,6 +3,8 @@ from dataclasses import dataclass, field
 from typing import Dict, List
 from pathlib import Path
 
+#TODO: Add AI
+
 @dataclass
 class Flashcard:
     '''A class representing a single flashcard.'''
