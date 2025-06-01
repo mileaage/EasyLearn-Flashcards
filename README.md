@@ -17,7 +17,7 @@
     Open `config.toml` and add a new deck following the provided example format.
 
 2. **Leverage AI:**  
-    Paste your study material and let the AI generate flashcards for you automatically.
+    Use popular AI chatbots to make some configs for whatever you plan to study.
 
 3. **Customize & Review:**  
     Edit, organize, and review your decks. Use Smart Review Mode for efficient learning.
