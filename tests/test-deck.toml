@@ -1,0 +1,23 @@
+# test-deck.toml
+
+[deck.test-deck]
+name = "Test-Deck"
+description = "I might want to use this for some testing just maybe perchance"
+tags = ["testing", "misc"]
+source_material = [
+    "GitHub",
+    "Random/Stuff",
+]
+
+# Cards
+[[deck.test-deck.cards]]
+term = "Jaiden"
+definition = "Top G"
+
+[[deck.test-deck.cards]]
+term = "Sandro"
+definition = "My King"
+
+[[deck.test-deck.cards]]
+term = "CP"
+definition = "Call Packgod"
