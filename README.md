@@ -28,7 +28,7 @@
 
 Install directly from GitHub:
 ```bash
-pip install git+https://github.com/yourusername/yourrepo.git
+pip install git+https://github.com/mileaage/EasyLearn-Flashcards.git
 ```
 
 ## Epilogue
