@@ -29,6 +29,7 @@
 Install directly from GitHub:
 ```bash
 pip install git+https://github.com/yourusername/yourrepo.git
+```
 
 ## Epilogue
 
