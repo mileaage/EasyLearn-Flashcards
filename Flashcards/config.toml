@@ -1,0 +1,418 @@
+# config.toml
+
+[deck.ifr_essentials]
+name = "IFR Essentials - Expanded"
+description = "Comprehensive IFR concepts and regulations for instrument flying - includes 50+ additional exam topics."
+tags = ["aviation", "IFR", "instrument_flying", "pilot_training", "checkride"]
+source_material = [
+    "FAR/AIM",
+    "Instrument Flying Handbook",
+    "Instrument Procedures Handbook"
+]
+
+# Cards
+[[deck.ifr_essentials.cards]]
+term = "IFR Currency (6-6-H-I-T)"
+definition = "Within the preceding 6 calendar months, a pilot must have performed and logged 6 instrument approaches, holding procedures, and intercepting and tracking courses using navigation systems."
+
+[[deck.ifr_essentials.cards]]
+term = "Minimum Safe Altitude (MSA)"
+definition = "The lowest altitude that will provide a minimum clearance of 1,000 feet above the highest obstacle within a horizontal distance of 4 nautical miles from the course to be flown."
+
+[[deck.ifr_essentials.cards]]
+term = "Decision Height (DH)"
+definition = "A specified height in the precision approach at which a missed approach must be initiated if the required visual reference to continue the approach has not been established."
+
+[[deck.ifr_essentials.cards]]
+term = "Minimum Descent Altitude (MDA)"
+definition = "The lowest altitude, expressed in feet above mean sea level, to which descent is authorized on final approach or during circle-to-land maneuvering in execution of a standard instrument approach procedure."
+
+[[deck.ifr_essentials.cards]]
+term = "ILS Critical Area"
+definition = "An area extending 200 feet beyond the localizer and glide slope antennas where vehicles, aircraft, and other objects can cause signal distortion."
+
+[[deck.ifr_essentials.cards]]
+term = "Holding Pattern Standard Rate Turn"
+definition = "3 degrees per second or 30-degree bank angle, whichever requires the lesser bank angle. Above 14,000 feet MSL, use 1.5 degrees per second."
+
+[[deck.ifr_essentials.cards]]
+term = "Standard Holding Pattern"
+definition = "Right turns, 1-minute legs (1.5 minutes above 14,000 feet MSL), standard rate turns, and legs timed from abeam the fix."
+
+[[deck.ifr_essentials.cards]]
+term = "Teardrop Entry"
+definition = "Used when approaching the holding fix from 070 to 110 degrees relative to the holding course. Fly 30 degrees outbound for 1 minute, then turn to intercept the inbound course."
+
+[[deck.ifr_essentials.cards]]
+term = "Parallel Entry"
+definition = "Used when approaching the holding fix from 110 to 250 degrees relative to the holding course. Fly parallel to the holding course for 1 minute, then turn to intercept the inbound course."
+
+[[deck.ifr_essentials.cards]]
+term = "Direct Entry"
+definition = "Used when approaching the holding fix from 250 to 070 degrees relative to the holding course. Turn to follow the holding pattern upon reaching the fix."
+
+[[deck.ifr_essentials.cards]]
+term = "Localizer Course Width"
+definition = "The localizer course width is 5 degrees (2.5 degrees on each side of the centerline) at the runway threshold."
+
+[[deck.ifr_essentials.cards]]
+term = "Glide Slope Angle"
+definition = "Typically 3 degrees above horizontal, providing approximately 300 feet per nautical mile descent rate."
+
+[[deck.ifr_essentials.cards]]
+term = "DME Arc Procedures"
+definition = "Maintain specified distance from DME station by making frequent small heading changes. Lead turns by 1/2 the bank angle plus wind correction."
+
+[[deck.ifr_essentials.cards]]
+term = "Missed Approach Point (MAP)"
+definition = "A point prescribed in each instrument approach procedure at which a missed approach procedure shall be executed if the required visual reference has not been established."
+
+[[deck.ifr_essentials.cards]]
+term = "Threshold Crossing Height (TCH)"
+definition = "The theoretical height above the runway threshold that an aircraft's glide slope antenna would be, if that aircraft remained on a trajectory formed by the four-mile-to-middle marker portion of the glide slope."
+
+[[deck.ifr_essentials.cards]]
+term = "Visibility Requirements for ILS"
+definition = "Category I ILS requires 1/2 mile visibility or RVR 1800 feet. Category II requires RVR 1200 feet. Category III has varying requirements down to no visibility minimums."
+
+[[deck.ifr_essentials.cards]]
+term = "RNAV (GPS) Approach Types"
+definition = "LNAV (lateral navigation only), LNAV/VNAV (lateral and vertical navigation), and LPV (localizer performance with vertical guidance) approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "Alternate Airport Requirements"
+definition = "From 1 hour before to 1 hour after ETA, ceiling must be at least 600 feet and visibility 2 miles for precision approaches, or 800 feet and 2 miles for non-precision approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "Fuel Requirements for IFR"
+definition = "Enough fuel to complete the flight to the first airport of intended landing, then to the alternate (if required), plus 45 minutes of normal cruising consumption."
+
+[[deck.ifr_essentials.cards]]
+term = "Lost Communication Procedures (CRAFT)"
+definition = "Continue on Clearance limit, Route assigned, Altitude - highest of assigned/expected/MEA, and Flight plan time to destination."
+
+[[deck.ifr_essentials.cards]]
+term = "VOR Accuracy Check"
+definition = "±4 degrees using VOT or ground checkpoint, ±6 degrees using airborne checkpoint, ±6 degrees using dual VOR check. Must be accomplished within 30 days."
+
+[[deck.ifr_essentials.cards]]
+term = "Pitot-Static System Check"
+definition = "Required within the preceding 24 calendar months for IFR flight. Must be performed by certificated repair station, certificated mechanic, or certificated pilot."
+
+[[deck.ifr_essentials.cards]]
+term = "Transponder Inspection"
+definition = "Required within the preceding 24 calendar months for IFR flight in controlled airspace. Must include altitude reporting equipment test and inspection."
+
+[[deck.ifr_essentials.cards]]
+term = "Standard Terminal Arrival Route (STAR)"
+definition = "A preplanned IFR air traffic control arrival procedure published for pilot use in graphic and/or textual form to provide transition from the en route structure to an outer fix or an instrument approach fix."
+
+[[deck.ifr_essentials.cards]]
+term = "Standard Instrument Departure (SID)"
+definition = "A preplanned IFR air traffic control departure procedure published for pilot use in graphic and/or textual form to provide obstruction clearance and a transition from the terminal area to the en route structure."
+
+[[deck.ifr_essentials.cards]]
+term = "Temperature Effect on Altimeter"
+definition = "In colder than standard temperature, the aircraft is lower than indicated. In warmer than standard temperature, the aircraft is higher than indicated."
+
+[[deck.ifr_essentials.cards]]
+term = "Cold Temperature Altimeter Error"
+definition = "When temperature is colder than standard, true altitude is lower than indicated altitude. Apply cold temperature correction when temperature is -10°C or colder."
+
+[[deck.ifr_essentials.cards]]
+term = "Instrument Approach Segments"
+definition = "Initial approach segment, intermediate approach segment, final approach segment, and missed approach segment."
+
+[[deck.ifr_essentials.cards]]
+term = "Final Approach Fix (FAF)"
+definition = "The fix from which the final approach (IFR) to an airport is executed. Identified by a Maltese cross symbol on government charts."
+
+[[deck.ifr_essentials.cards]]
+term = "Initial Approach Fix (IAF)"
+definition = "The fixes depicted on instrument approach procedure charts that identify the beginning of the initial approach segment."
+
+[[deck.ifr_essentials.cards]]
+term = "Procedure Turn"
+definition = "A maneuver prescribed when it is necessary to reverse direction to establish an aircraft on the intermediate approach segment or final approach course."
+
+[[deck.ifr_essentials.cards]]
+term = "Course Reversal Barb"
+definition = "Indicates the side of the outbound course on which the procedure turn or hold-in-lieu-of-procedure-turn is made."
+
+[[deck.ifr_essentials.cards]]
+term = "NoPT (No Procedure Turn)"
+definition = "Indicates that a procedure turn is not authorized for the approach when arriving from specific directions or via specific routes."
+
+[[deck.ifr_essentials.cards]]
+term = "Radar Vectors to Final"
+definition = "When radar vectors are provided to the final approach course, no procedure turn is authorized unless specifically cleared by ATC."
+
+[[deck.ifr_essentials.cards]]
+term = "Circle-to-Land Approach"
+definition = "A maneuver initiated by the pilot to align the aircraft with a runway for landing when a straight-in landing from an instrument approach is not possible or is not desirable."
+
+[[deck.ifr_essentials.cards]]
+term = "Circling Minimums"
+definition = "The lowest altitude, expressed in feet above the airport elevation, at which the circling approach may be accomplished under basic VFR conditions."
+
+[[deck.ifr_essentials.cards]]
+term = "Straight-in Landing Minimums"
+definition = "The lowest altitude and visibility requirements for a straight-in instrument approach when the final approach course is within 30 degrees of the runway alignment."
+
+[[deck.ifr_essentials.cards]]
+term = "Side-step Maneuver"
+definition = "A visual maneuver accomplished by a pilot at the completion of an instrument approach to permit a straight-in landing on a parallel runway not more than 1,200 feet to either side of the runway to which the instrument approach was conducted."
+
+[[deck.ifr_essentials.cards]]
+term = "Contact Approach"
+definition = "An approach wherein an aircraft on an IFR flight plan, having an air traffic control authorization, operating clear of clouds with at least 1 mile flight visibility, may deviate from the instrument approach procedure."
+
+[[deck.ifr_essentials.cards]]
+term = "Visual Approach"
+definition = "An approach conducted on an IFR flight plan which authorizes the pilot to proceed visually and clear of clouds to the airport, when flight visibility is 3 miles or greater."
+
+[[deck.ifr_essentials.cards]]
+term = "ASR Approach"
+definition = "Airport Surveillance Radar approach - a non-precision radar approach in which the controller provides azimuth guidance only."
+
+[[deck.ifr_essentials.cards]]
+term = "PAR Approach"
+definition = "Precision Approach Radar - a precision radar approach in which the controller provides both azimuth and glide path guidance to the pilot."
+
+[[deck.ifr_essentials.cards]]
+term = "MEA (Minimum En Route Altitude)"
+definition = "The lowest published altitude between radio fixes which ensures acceptable navigational signal coverage and meets obstacle clearance requirements between those fixes."
+
+[[deck.ifr_essentials.cards]]
+term = "MOCA (Minimum Obstruction Clearance Altitude)"
+definition = "The lowest published altitude in effect between radio fixes on VOR airways, off-airway routes, or route segments which meets obstacle clearance requirements."
+
+[[deck.ifr_essentials.cards]]
+term = "MCA (Minimum Crossing Altitude)"
+definition = "The lowest altitude at certain fixes at which an aircraft must cross when proceeding in the direction of a higher minimum en route IFR altitude."
+
+[[deck.ifr_essentials.cards]]
+term = "MAA (Maximum Authorized Altitude)"
+definition = "A published altitude representing the maximum usable altitude or flight level for an airspace structure or route segment."
+
+[[deck.ifr_essentials.cards]]
+term = "OROCA (Off-Route Obstruction Clearance Altitude)"
+definition = "An off-route altitude that provides obstruction clearance with a 1,000-foot buffer in non-mountainous terrain areas and a 2,000-foot buffer in designated mountainous areas."
+
+[[deck.ifr_essentials.cards]]
+term = "Grid MORA (Minimum Off-Route Altitude)"
+definition = "The minimum altitude shown on instrument charts that provides 1,000 feet clearance above all obstacles in non-mountainous areas and 2,000 feet in mountainous areas within the grid square."
+
+[[deck.ifr_essentials.cards]]
+term = "Emergency Safe Altitude (ESA)"
+definition = "An altitude that provides 1,000 feet clearance above the highest obstacle within 100 nautical miles of the airport reference point."
+
+# NEW 50 ADDITIONAL CARDS BELOW
+
+[[deck.ifr_essentials.cards]]
+term = "IFR Equipment Requirements (91.205)"
+definition = "Generator or alternator, gyroscopic rate-of-turn indicator, gyroscopic bank and pitch indicator, gyroscopic direction indicator, sensitive altimeter adjustable for barometric pressure, clock displaying hours/minutes/seconds with a sweep-second pointer or digital presentation, and two-way radio communication system appropriate to the flight."
+
+[[deck.ifr_essentials.cards]]
+term = "DME/DME/IRU Required Area"
+definition = "Areas where GPS/WAAS is not authorized for IFR navigation and DME/DME navigation capability or Inertial Reference Unit is required. Includes parts of Alaska and some oceanic areas."
+
+[[deck.ifr_essentials.cards]]
+term = "RAIM (Receiver Autonomous Integrity Monitoring)"
+definition = "A technology that enables a GPS receiver to assess the integrity of GPS signals and detect satellite failures. RAIM requires at least 5 satellites for lateral navigation and 6 for vertical navigation."
+
+[[deck.ifr_essentials.cards]]
+term = "WAAS (Wide Area Augmentation System)"
+definition = "A satellite-based augmentation system that provides precision approach capability to airports. Enables LPV approaches with decision altitudes as low as 200 feet."
+
+[[deck.ifr_essentials.cards]]
+term = "RNP (Required Navigation Performance)"
+definition = "A statement of navigation performance accuracy necessary for operation within a defined airspace. Common RNP values include RNP 1.0 for terminal areas and RNP 0.3 for approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "LAHSO (Land and Hold Short Operations)"
+definition = "Operations that include simultaneous takeoffs and landings and/or simultaneous landings when a landing aircraft is able and is instructed by the controller to hold-short of the intersecting runway/taxiway or designated hold-short point."
+
+[[deck.ifr_essentials.cards]]
+term = "Runway Visual Range (RVR)"
+definition = "An instrumentally derived value that represents the horizontal distance a pilot can see down the runway from the approach end. RVR is reported in hundreds of feet and takes precedence over prevailing visibility for aircraft operations."
+
+[[deck.ifr_essentials.cards]]
+term = "Special VFR (SVFR)"
+definition = "A VFR clearance issued by ATC for flight in Class B, C, D, or E surface areas when weather conditions are below basic VFR minimums. Requires clear of clouds, 1 mile visibility, and special endorsement for night operations."
+
+[[deck.ifr_essentials.cards]]
+term = "Convective SIGMET"
+definition = "Issued for severe thunderstorms, embedded thunderstorms, tornadoes, lines of thunderstorms, or hail greater than or equal to 3/4 inch in diameter. Valid for up to 2 hours."
+
+[[deck.ifr_essentials.cards]]
+term = "AIRMET (WA)"
+definition = "Airmen's Meteorological Information issued every 6 hours for weather phenomena that are hazardous to single-engine, light aircraft. Includes moderate turbulence, moderate icing, and IFR conditions."
+
+[[deck.ifr_essentials.cards]]
+term = "SIGMET (WS)"
+definition = "Significant Meteorological Information concerning weather significant to all aircraft. Valid for 4 hours (6 hours for hurricanes). Covers severe turbulence, severe icing, dust storms, and volcanic ash."
+
+[[deck.ifr_essentials.cards]]
+term = "Temporary Flight Restriction (TFR)"
+definition = "A regulatory action issued by the FAA to restrict certain aircraft from operating within a defined area on a temporary basis to protect persons or property in the air or on the surface."
+
+[[deck.ifr_essentials.cards]]
+term = "Mode C Veil"
+definition = "Airspace within 30 nautical miles of the primary airport in Class B airspace from the surface up to 10,000 feet MSL where aircraft must be equipped with Mode C (altitude reporting) transponder."
+
+[[deck.ifr_essentials.cards]]
+term = "ADIZ (Air Defense Identification Zone)"
+definition = "Airspace over land or water in which the ready identification, location, and control of aircraft is required in the interest of national security. File flight plan and establish radio contact before entering."
+
+[[deck.ifr_essentials.cards]]
+term = "Victor Airways"
+definition = "Low altitude airways based on VOR navigation, designated by 'V' followed by a number. Extend from 1,200 feet AGL up to but not including 18,000 feet MSL. Width is 8 nautical miles (4 nm on each side of centerline)."
+
+[[deck.ifr_essentials.cards]]
+term = "Jet Routes"
+definition = "High altitude airways designated by 'J' followed by a number. Extend from 18,000 feet MSL up to and including FL450. Width is 8 nautical miles (4 nm on each side of centerline)."
+
+[[deck.ifr_essentials.cards]]
+term = "Q Routes"
+definition = "High altitude RNAV routes designated by 'Q' followed by a number. Available for use by RNAV-equipped aircraft between 18,000 feet MSL and FL450."
+
+[[deck.ifr_essentials.cards]]
+term = "T Routes"
+definition = "Low altitude RNAV routes designated by 'T' followed by a number. Available for use by RNAV-equipped aircraft from 1,200 feet AGL up to but not including 18,000 feet MSL."
+
+[[deck.ifr_essentials.cards]]
+term = "Preferred IFR Routes"
+definition = "Routes established between busier airports to increase system efficiency and capacity. Listed in the Chart Supplement and should be filed for flights between listed city pairs during specified hours."
+
+[[deck.ifr_essentials.cards]]
+term = "Tower En Route Control (TEC)"
+definition = "Service provided by approach control facilities at certain airports to aircraft operating IFR within the approach control airspace. Designed to expedite traffic and reduce flight plan processing."
+
+[[deck.ifr_essentials.cards]]
+term = "Expect Further Clearance (EFC) Time"
+definition = "The time a pilot can expect to receive clearance beyond a clearance limit. If no communication is received by the EFC time, the pilot should continue according to filed flight plan."
+
+[[deck.ifr_essentials.cards]]
+term = "Minimum Vectoring Altitude (MVA)"
+definition = "The lowest MSL altitude at which an IFR aircraft will be vectored by a radar controller, except as otherwise authorized for radar approaches, departures, and missed approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "Diverse Vector Area (DVA)"
+definition = "In a radar environment, an area in which a prescribed departure route is not required to provide obstacle clearance. Controllers may vector aircraft in any direction from the airport."
+
+[[deck.ifr_essentials.cards]]
+term = "Obstacle Departure Procedure (ODP)"
+definition = "A preplanned IFR departure procedure printed for pilot use in textual or graphic form to provide obstruction clearance via the least onerous route from the terminal area to the appropriate en route structure."
+
+[[deck.ifr_essentials.cards]]
+term = "Close-in Obstacles"
+definition = "Obstacles located within 1 nautical mile of the runway departure end with penetrating heights 35 feet or higher above the runway elevation. Identified by a triangle symbol on departure procedures."
+
+[[deck.ifr_essentials.cards]]
+term = "Low Close-in Obstacles"
+definition = "Obstacles located within 1 nautical mile of the runway departure end with penetrating heights less than 35 feet above the runway elevation. Identified by the Minimum Safe Altitude Warning."
+
+[[deck.ifr_essentials.cards]]
+term = "RNAV 1 Navigation Specification"
+definition = "Aircraft must remain within 1 nautical mile of the desired track 95% of the time. Required for some RNAV terminal procedures and may be required in certain airspace."
+
+[[deck.ifr_essentials.cards]]
+term = "Baro-VNAV"
+definition = "Barometric Vertical Navigation that uses barometric altitude information to provide vertical guidance during RNAV approaches. Temperature limitations apply and cold temperature corrections may be required."
+
+[[deck.ifr_essentials.cards]]
+term = "Localizer Performance with Vertical Guidance (LPV)"
+definition = "An approach procedure based on WAAS that provides both lateral and vertical guidance. Provides precision approach-like performance with decision altitudes as low as 200 feet."
+
+[[deck.ifr_essentials.cards]]
+term = "Lateral Navigation (LNAV) Minimums"
+definition = "Non-precision approach minimums that provide lateral guidance only. Published as Minimum Descent Altitude (MDA) with required visibility."
+
+[[deck.ifr_essentials.cards]]
+term = "LNAV/VNAV Minimums"
+definition = "Approach minimums that provide both lateral and vertical guidance using WAAS or Baro-VNAV. Published as Decision Altitude (DA) with required visibility."
+
+[[deck.ifr_essentials.cards]]
+term = "GPS Approach Overlay"
+definition = "An instrument approach procedure based on ground-based navigation aids that also allows GPS as an alternate means of navigation guidance. Identified by the name of the ground-based approach with 'or GPS' added."
+
+[[deck.ifr_essentials.cards]]
+term = "GPS Stand-alone Approach"
+definition = "An instrument approach procedure based solely on GPS navigation. The title will be RNAV (GPS) and will not reference ground-based navigation aids."
+
+[[deck.ifr_essentials.cards]]
+term = "Terminal Arrival Area (TAA)"
+definition = "A controlled airspace established in conjunction with RNAV approach procedures to provide a transition from the en route structure to the terminal environment for arriving aircraft."
+
+[[deck.ifr_essentials.cards]]
+term = "Stepdown Fix"
+definition = "A fix that permits additional descent within a segment of an instrument approach procedure by identifying a point at which a controlling obstacle has been safely overflown."
+
+[[deck.ifr_essentials.cards]]
+term = "Visual Descent Point (VDP)"
+definition = "A defined point on the final approach course of a non-precision straight-in approach procedure from which normal descent from the MDA to the runway touchdown point may be commenced."
+
+[[deck.ifr_essentials.cards]]
+term = "Simplified Directional Facility (SDF)"
+definition = "A NAVAID used for non-precision instrument approaches. Similar to localizer but may not be aligned with the runway. Course width varies from 6 to 12 degrees."
+
+[[deck.ifr_essentials.cards]]
+term = "Localizer Type Directional Aid (LDA)"
+definition = "A NAVAID of comparable utility and accuracy to a localizer but not aligned with the runway. May have a glide slope and is used for precision or non-precision approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "Microwave Landing System (MLS)"
+definition = "A precision approach system that uses microwave signals to provide azimuth, elevation, and distance information. Provides multiple approach angles and curved approach paths."
+
+[[deck.ifr_essentials.cards]]
+term = "Instrument Landing System (ILS) Categories"
+definition = "CAT I: DH 200 feet, RVR 1800 or visibility 1/2 mile. CAT II: DH 100 feet, RVR 1200. CAT IIIA: DH below 100 feet or no DH, RVR not less than 700 feet."
+
+[[deck.ifr_essentials.cards]]
+term = "Marker Beacons"
+definition = "Outer Marker (OM): 400 Hz blue light, indicates glide slope intercept. Middle Marker (MM): 1300 Hz amber light, indicates decision height vicinity. Inner Marker (IM): 3000 Hz white light, indicates decision height for CAT II approaches."
+
+[[deck.ifr_essentials.cards]]
+term = "Back Course Approach"
+definition = "A non-precision instrument approach conducted on the back course of an ILS localizer. Navigation indications are reversed (fly away from the CDI needle), and there is no glide slope guidance."
+
+[[deck.ifr_essentials.cards]]
+term = "False Glide Slope"
+definition = "Glide slope signals that occur at angles other than the published glide slope angle. These false signals can cause an aircraft to intercept a glide slope above or below the published intercept altitude."
+
+[[deck.ifr_essentials.cards]]
+term = "Compass Locator"
+definition = "A low-power, low or medium frequency (LF/MF) radio beacon installed at the site of the outer or middle marker of an ILS. Used for approach guidance and identification of marker beacon locations."
+
+[[deck.ifr_essentials.cards]]
+term = "Fly-by Waypoint"
+definition = "A waypoint that requires the aircraft to turn prior to reaching the waypoint in order to establish the aircraft on the next course. Turn anticipation is based on aircraft speed and bank angle."
+
+[[deck.ifr_essentials.cards]]
+term = "Fly-over Waypoint"
+definition = "A waypoint that requires the aircraft to fly over the waypoint before beginning the turn to the next course. Typically used when terrain or obstacles require a specific flight path."
+
+[[deck.ifr_essentials.cards]]
+term = "Hold-in-lieu-of-Procedure-Turn"
+definition = "A holding pattern established over an intermediate fix or final approach fix when a procedure turn is not appropriate. Used to align aircraft with the final approach course."
+
+[[deck.ifr_essentials.cards]]
+term = "Altitude Intercept"
+definition = "A descent technique used during an instrument approach where the pilot begins descent at a predetermined distance from a fix to arrive at the required altitude at that fix."
+
+[[deck.ifr_essentials.cards]]
+term = "Stabilized Approach"
+definition = "An approach characterized by a constant angle glide path, constant airspeed, constant configuration, and constant power setting. Should be established by 1,000 feet AGL in IMC."
+
+[[deck.ifr_essentials.cards]]
+term = "Approach Ban"
+definition = "When weather conditions are below minimums at the destination, Part 121 and 135 operators cannot begin an approach unless conditions improve to at or above minimums before reaching the final approach fix."
+
+[[deck.ifr_essentials.cards]]
+term = "Military Training Routes (MTR)"
+definition = "Airspace of defined vertical and lateral dimensions established for the conduct of military flight training at airspeeds in excess of 250 knots IAS. Designated as IR (IFR) or VR (VFR) routes."
+
+[[deck.ifr_essentials.cards]]
+term = "Published Hold Shortcut"
+definition = "When cleared for an approach via a published hold, and if the aircraft approaches the holding fix from the holding pattern side, the pilot may proceed directly to the IAF without executing the hold."
